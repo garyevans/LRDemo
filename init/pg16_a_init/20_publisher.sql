@@ -1,0 +1,1 @@
+CREATE PUBLICATION pub_a FOR TABLE public.note;

@@ -1,0 +1,33 @@
+Pre-requisites
+--------------
+
+Iterm2
+Docker Desktop
+
+Starting the demo
+=================
+
+1) start an ITerm session
+
+2) Go to the demo directory (eg cd ~/demos/FOSSASIA2026)
+
+3) docker compose down -v
+docker compose up -demo
+
+4) start another iterm session
+
+5) go to terminals  'profiles' menu and select the first profile ('publisher logs'), a new terminal tab will open
+
+6) With the new terminal in focus, go to the session menu and select 'move session to split_pane', and position in the existing window.
+
+7) repeat for other profiles
+
+
+8) in the subscriber psql session set up the subscriber ' \i ./demo/sub.sql '
+
+9) in each of the psql sessions watch the notes table ' select * from note; \watch 5
+
+10) Add a new psql session for each of publisher and subscriber for sql entry
+
+
+
